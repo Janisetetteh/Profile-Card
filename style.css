@@ -17,13 +17,12 @@ body{
     border:none;
     background-color:hsl(0, 0%, 100%);
     border-radius: 10px;
-    position:relative;
-    top:-25rem;
+    position:absolute;
+    z-index:2;
 
 }
 .profile-container img{
     border-radius: 10px 10px 0 0;
-    /* border-top: ; */
 }
 
 .profile{
@@ -31,11 +30,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* border: 10px solid blue; */
-    /* position:absolute;
-    top: -2px; */
     height:100px;
-    /* line-height: 0; */
 }
 .profile img{
     width:96px;
@@ -71,16 +66,17 @@ span{
     color: hsl(0, 0%, 59%);
 }
 #pattern_bottom{
-    position:relative;
-    /* left:0; */
+    position:absolute;
     width:800px;
     right:-13rem;
-    bottom:-22rem;
-    top:-10rem;
+    top:20rem;
+    
+    
 }
 #pattern_top{
     position: relative;
     width:800px;
-    top: -15rem;
-    left:-20rem;
+    top: -18rem;
+    left:-30rem;
+    z-index: 1;
 }
